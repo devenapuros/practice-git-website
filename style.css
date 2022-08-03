@@ -19,11 +19,27 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 3rem;
+    padding: 5rem;
 }
 
 .hero .icon {
     height: 9rem;
     width: auto;
     object-fit: contain;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.counter small {
+    color:gray;
+}
+
+.counter .clock {
+    font-size: 5rem;
 }
